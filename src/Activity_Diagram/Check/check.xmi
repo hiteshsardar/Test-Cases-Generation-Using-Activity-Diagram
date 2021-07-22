@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAF6vhF0sgOK6vg=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model"/>
+		<packagedElement xmi:id="AAAAAAF6vgflMQI3R00=" name="Activity1" visibility="public" isReentrant="true" xmi:type="uml:Activity" isReadOnly="false" isSingleExecution="false">
+			<node xmi:id="AAAAAAF6vggCAgI8d+0=" name="Start" visibility="public" xmi:type="uml:InitialNode"/>
+			<node xmi:id="AAAAAAF6vggSEAJBPO8=" name="Read%20A" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF6vghdaAJdk5I=" name="Read%20B" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF6vgkLUQKD7Gg=" name="A%20+%20B%20Greater%20than%20100" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAF6vgljSQKPvH4=" name="Print%20Large" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF6vgn9CQKsSnM=" name="B%20%20Greater%20than%2050" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAF6vgo/EgK3SIM=" name="Print%20B%20is%20Greater" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF6vgqcgALSLqE=" name="End" visibility="public" xmi:type="uml:ActivityFinalNode"/>
+			<edge xmi:id="AAAAAAF6vgrXjQLeUFE=" visibility="public" source="AAAAAAF6vggCAgI8d+0=" target="AAAAAAF6vggSEAJBPO8=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF6vgsRgALwOf8=" visibility="public" source="AAAAAAF6vggSEAJBPO8=" target="AAAAAAF6vghdaAJdk5I=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF6vgshFQMBprE=" visibility="public" source="AAAAAAF6vghdaAJdk5I=" target="AAAAAAF6vgkLUQKD7Gg=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF6vgswCQMSUtU=" visibility="public" source="AAAAAAF6vgkLUQKD7Gg=" target="AAAAAAF6vgljSQKPvH4=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF6vgs/xAMjztA=" visibility="public" source="AAAAAAF6vgkLUQKD7Gg=" target="AAAAAAF6vgn9CQKsSnM=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF6vgtPtgM05Zk=" visibility="public" source="AAAAAAF6vgljSQKPvH4=" target="AAAAAAF6vgn9CQKsSnM=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF6vgteEANF+VM=" visibility="public" source="AAAAAAF6vgn9CQKsSnM=" target="AAAAAAF6vgqcgALSLqE=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF6vgtptQNWPvs=" visibility="public" source="AAAAAAF6vgn9CQKsSnM=" target="AAAAAAF6vgo/EgK3SIM=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF6vgt4WQNnbDo=" visibility="public" source="AAAAAAF6vgo/EgK3SIM=" target="AAAAAAF6vgqcgALSLqE=" xmi:type="uml:ControlFlow"/>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>

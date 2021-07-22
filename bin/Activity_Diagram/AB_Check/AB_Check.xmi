@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAF5OueLfxpnePg=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model"/>
+		<packagedElement xmi:id="AAAAAAF5OtrniARiJag=" name="Activity1" visibility="public" isReentrant="true" xmi:type="uml:Activity" isReadOnly="false" isSingleExecution="false">
+			<node xmi:id="AAAAAAF5OtsjmQRof18=" name="Start" visibility="public" xmi:type="uml:InitialNode"/>
+			<node xmi:id="AAAAAAF5Otsz9wRtSug=" name="A" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5OttEmgSHBPM=" name="B" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5Otta/ASh2Sw=" name="If%20A%20is%20Greater%20B%20(Check)" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAF5OtuPTASmUbs=" name="A%20is%20Greater" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5OtuZXAS/aWQ=" name="B%20is%20Greater" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5Otu8AATY/DI=" name="End" visibility="public" xmi:type="uml:ActivityFinalNode"/>
+			<edge xmi:id="AAAAAAF5OtxmUAT1AYs=" visibility="public" source="AAAAAAF5OtsjmQRof18=" target="AAAAAAF5Otsz9wRtSug=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5Otx8qgUGFxs=" visibility="public" source="AAAAAAF5Otsz9wRtSug=" target="AAAAAAF5OttEmgSHBPM=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5OtyRYwUX1CE=" visibility="public" source="AAAAAAF5OttEmgSHBPM=" target="AAAAAAF5Otta/ASh2Sw=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5OtynNgUoBho=" visibility="public" source="AAAAAAF5Otta/ASh2Sw=" target="AAAAAAF5OtuPTASmUbs=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5Ot0DXgU6EUY=" visibility="public" source="AAAAAAF5Otta/ASh2Sw=" target="AAAAAAF5OtuZXAS/aWQ=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5Ot2moAVPoOw=" visibility="public" source="AAAAAAF5OtuZXAS/aWQ=" target="AAAAAAF5Otu8AATY/DI=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5Ot26tAVgoCg=" visibility="public" source="AAAAAAF5OtuPTASmUbs=" target="AAAAAAF5Otu8AATY/DI=" xmi:type="uml:ControlFlow"/>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAF5TXBn6SmPLyo=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model"/>
+		<packagedElement xmi:id="AAAAAAF5TVBZ9SUtdcc=" name="Activity1" visibility="public" isReentrant="true" xmi:type="uml:Activity" isReadOnly="false" isSingleExecution="false">
+			<node xmi:id="AAAAAAF5TVGnjCUzoYI=" name="Start" visibility="public" xmi:type="uml:InitialNode"/>
+			<node xmi:id="AAAAAAF5TVHmRCU431k=" name="Get%20Customer%20Info" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5TVJihyVSaV4=" name="Authenticate" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5TVLaNiVtZwE=" name="eSystems%20Accounting%20System" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5TVUJxiWTuEk=" name="Is%20Authenticate%20(Check)" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAF5TVU9qSWY230=" name="Authentication%20Failure" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5TVbyRCW6ko0=" name="Present%20Service%20Menu" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5TVdlzCXZYIQ=" name="Check%20Option" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAF5TVfyASXiJ1Y=" name="Other%20Service" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5TVhCOSX8mI8=" name="Get%20Amount" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5TVo37yYZHlI=" name="Check%20Balance" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5TVrqqCY40UQ=" name="eSystems%20Accounting%20System" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5TVuhhyZZNBU=" name="Check%20Balance" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAF5TVv38iZljpk=" name="Return%20Card" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5TVydWCaX0tM=" name="Return%20Card" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5TV1JXCa124A=" name="Dispense%20Cash" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5TV3m6CbRYeU=" name="Activity" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5TV8LFSbx1r0=" name="Print%20Receipt" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5TWMEQyd50no=" name="End" visibility="public" xmi:type="uml:ActivityFinalNode"/>
+			<edge xmi:id="AAAAAAF5TWO3gieCHYs=" visibility="public" source="AAAAAAF5TVGnjCUzoYI=" target="AAAAAAF5TVHmRCU431k=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWPyOieTxGs=" visibility="public" source="AAAAAAF5TVHmRCU431k=" target="AAAAAAF5TVJihyVSaV4=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWQu6ielciE=" visibility="public" source="AAAAAAF5TVJihyVSaV4=" target="AAAAAAF5TVLaNiVtZwE=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWRxjie2f9w=" visibility="public" source="AAAAAAF5TVJihyVSaV4=" target="AAAAAAF5TVUJxiWTuEk=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWUmFCfdpjw=" name="Ok" visibility="public" source="AAAAAAF5TVUJxiWTuEk=" target="AAAAAAF5TVbyRCW6ko0=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWVw7ifvecM=" visibility="public" source="AAAAAAF5TVUJxiWTuEk=" target="AAAAAAF5TVU9qSWY230=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWWiPSgAgQU=" visibility="public" source="AAAAAAF5TVbyRCW6ko0=" target="AAAAAAF5TVdlzCXZYIQ=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWYBWigrLDc=" visibility="public" source="AAAAAAF5TVdlzCXZYIQ=" target="AAAAAAF5TVfyASXiJ1Y=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWYfQCg8Cp4=" name="Withdrawal" visibility="public" source="AAAAAAF5TVdlzCXZYIQ=" target="AAAAAAF5TVhCOSX8mI8=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWaXpShOyLw=" visibility="public" source="AAAAAAF5TVhCOSX8mI8=" target="AAAAAAF5TVo37yYZHlI=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWbDsihfXHM=" visibility="public" source="AAAAAAF5TVo37yYZHlI=" target="AAAAAAF5TVuhhyZZNBU=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWc0qyhwe6M=" visibility="public" source="AAAAAAF5TVo37yYZHlI=" target="AAAAAAF5TVLaNiVtZwE=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWf6diiJJNg=" name="Insufficient" visibility="public" source="AAAAAAF5TVuhhyZZNBU=" target="AAAAAAF5TVv38iZljpk=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWhYIyibzbg=" name="Ok" visibility="public" source="AAAAAAF5TVuhhyZZNBU=" target="AAAAAAF5TVydWCaX0tM=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWimRyit040=" visibility="public" source="AAAAAAF5TVydWCaX0tM=" target="AAAAAAF5TV1JXCa124A=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWi41yi+t6c=" visibility="public" source="AAAAAAF5TVydWCaX0tM=" target="AAAAAAF5TV3m6CbRYeU=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWmdHyjohy0=" visibility="public" source="AAAAAAF5TVv38iZljpk=" target="AAAAAAF5TVLaNiVtZwE=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWoCMyj5GoY=" visibility="public" source="AAAAAAF5TV1JXCa124A=" target="AAAAAAF5TV8LFSbx1r0=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWoSzCkKees=" visibility="public" source="AAAAAAF5TV3m6CbRYeU=" target="AAAAAAF5TV8LFSbx1r0=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWopzykbda8=" visibility="public" source="AAAAAAF5TV8LFSbx1r0=" target="AAAAAAF5TWMEQyd50no=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWtY+yk0Dy4=" visibility="public" source="AAAAAAF5TVLaNiVtZwE=" target="AAAAAAF5TVo37yYZHlI=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWuGHilUcjk=" visibility="public" source="AAAAAAF5TVLaNiVtZwE=" target="AAAAAAF5TVo37yYZHlI=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5TWuWKilleIA=" visibility="public" source="AAAAAAF5TVLaNiVtZwE=" target="AAAAAAF5TVv38iZljpk=" xmi:type="uml:ControlFlow"/>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>

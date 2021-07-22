@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAF5UCFay7swnF4=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model"/>
+		<packagedElement xmi:id="AAAAAAF5T/DiJbUki50=" name="Activity1" visibility="public" isReentrant="true" xmi:type="uml:Activity" isReadOnly="false" isSingleExecution="false">
+			<node xmi:id="AAAAAAF5T/Fh7rUqnaI=" name="Start" visibility="public" xmi:type="uml:InitialNode"/>
+			<node xmi:id="AAAAAAF5T/KMF7U85pA=" name="check%20problem%20Statement" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAF5T/L+/bVGAI0=" name="Warm_Up%20Practice" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5T/PplrVmeUg=" name="Explain%20Problem" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5T/TZobWDBsY=" name="Present%20rules" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5T/VFGbWe7Rc=" name="Call%20for%20ideas" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5T/W8G7W59aI=" name="check%20idea(s)" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAF5T/Y/ArXFYaE=" name="Suggest%20lead" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5T/bQ7bXg6zY=" name="check%20one%20or%20more%20idea(s)" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAF5T/diy7XvLhE=" name="Participants%20write%20down%20their%20ideas" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5T/g5HbYK2JA=" name="Everybody%20presents%20their%20idea%20in%20turn" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5T/nkgbYlwAg=" name="ForkNode" visibility="public" xmi:type="uml:ForkNode"/>
+			<node xmi:id="AAAAAAF5T/orELYsd2E=" name="Present%20idea" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5T/pyZbZGJ3M=" name="Record%20idea" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5T/tZmbZlCP4=" name="check%20timing" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAF5T/vGM7Zy2bA=" name="JoinNode" visibility="public" xmi:type="uml:JoinNode"/>
+			<node xmi:id="AAAAAAF5T/w4hrZ+3EM=" name="Elaborate%20on%20idea" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5T/0JAbadWm8=" name="check%20idea(s)" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAF5T/2J3baoOcE=" name="check%20timing" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAF5T/4+wra1Q4Y=" name="ForkNode" visibility="public" xmi:type="uml:ForkNode"/>
+			<node xmi:id="AAAAAAF5T/7CRra8Nfc=" name="Select%20most%20associated%20idea" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5T/8rfLbWx80=" name="Others%20write%20down%20their%20idea" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5UABa0LbyfC0=" name="JoinNode" visibility="public" xmi:type="uml:JoinNode"/>
+			<node xmi:id="AAAAAAF5UAT3mLh8yj4=" name="Warp%20Up" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAF5UAVkBriWx38=" name="End" visibility="public" xmi:type="uml:ActivityFinalNode"/>
+			<edge xmi:id="AAAAAAF5UAWmkbibL8U=" visibility="public" source="AAAAAAF5T/Fh7rUqnaI=" target="AAAAAAF5T/KMF7U85pA=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UAXPc7isEm0=" name="inexperienced%20participants%20in%20the%20group" visibility="public" source="AAAAAAF5T/KMF7U85pA=" target="AAAAAAF5T/L+/bVGAI0=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UAdjU7jBiq0=" name="else" visibility="public" source="AAAAAAF5T/KMF7U85pA=" target="AAAAAAF5T/PplrVmeUg=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UAhZmrjYVN0=" visibility="public" source="AAAAAAF5T/PplrVmeUg=" target="AAAAAAF5T/TZobWDBsY=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UAhshrjpDfA=" visibility="public" source="AAAAAAF5T/TZobWDBsY=" target="AAAAAAF5T/VFGbWe7Rc=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UAiSBrj6IXE=" visibility="public" source="AAAAAAF5T/VFGbWe7Rc=" target="AAAAAAF5T/W8G7W59aI=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UAi1VrkL4OM=" name="no%20idea(s)" visibility="public" source="AAAAAAF5T/W8G7W59aI=" target="AAAAAAF5T/Y/ArXFYaE=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UAmL87kgC6Q=" visibility="public" source="AAAAAAF5T/Y/ArXFYaE=" target="AAAAAAF5T/W8G7W59aI=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UAoyark286I=" name="idea(s)%20available" visibility="public" source="AAAAAAF5T/W8G7W59aI=" target="AAAAAAF5T/bQ7bXg6zY=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UArBz7lJZPE=" name="more" visibility="public" source="AAAAAAF5T/bQ7bXg6zY=" target="AAAAAAF5T/diy7XvLhE=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UAsLiblbtZ8=" name="one" visibility="public" source="AAAAAAF5T/bQ7bXg6zY=" target="AAAAAAF5T/nkgbYlwAg=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UAwRMLl+gw4=" visibility="public" source="AAAAAAF5T/diy7XvLhE=" target="AAAAAAF5T/g5HbYK2JA=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UAyKyLmQx2w=" visibility="public" source="AAAAAAF5T/nkgbYlwAg=" target="AAAAAAF5T/orELYsd2E=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UAyk6Lmhrhw=" visibility="public" source="AAAAAAF5T/nkgbYlwAg=" target="AAAAAAF5T/pyZbZGJ3M=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UAzF37my8Vk=" visibility="public" source="AAAAAAF5T/orELYsd2E=" target="AAAAAAF5T/vGM7Zy2bA=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UAzgnrnDjJU=" visibility="public" source="AAAAAAF5T/pyZbZGJ3M=" target="AAAAAAF5T/vGM7Zy2bA=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UA1Ry7nU/Sc=" visibility="public" source="AAAAAAF5T/vGM7Zy2bA=" target="AAAAAAF5T/tZmbZlCP4=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UA2Lj7nlLK4=" name="time%20left" visibility="public" source="AAAAAAF5T/tZmbZlCP4=" target="AAAAAAF5T/w4hrZ+3EM=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UA3iqLn4zX0=" visibility="public" source="AAAAAAF5T/g5HbYK2JA=" target="AAAAAAF5T/w4hrZ+3EM=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UA5q67oLOic=" visibility="public" source="AAAAAAF5T/w4hrZ+3EM=" target="AAAAAAF5T/0JAbadWm8=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UA63Y7odro8=" name="more" visibility="public" source="AAAAAAF5T/0JAbadWm8=" target="AAAAAAF5T/4+wra1Q4Y=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UA+6L7ozZVQ=" visibility="public" source="AAAAAAF5T/4+wra1Q4Y=" target="AAAAAAF5T/7CRra8Nfc=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UA/P5LpE2IU=" visibility="public" source="AAAAAAF5T/4+wra1Q4Y=" target="AAAAAAF5T/8rfLbWx80=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UA/qHrpVr+o=" visibility="public" source="AAAAAAF5T/7CRra8Nfc=" target="AAAAAAF5UABa0LbyfC0=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UA//f7pm+zY=" visibility="public" source="AAAAAAF5T/8rfLbWx80=" target="AAAAAAF5UABa0LbyfC0=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UBBNfLp39XE=" visibility="public" source="AAAAAAF5UABa0LbyfC0=" target="AAAAAAF5T/nkgbYlwAg=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UBHeCbqRYys=" name="one" visibility="public" source="AAAAAAF5T/0JAbadWm8=" target="AAAAAAF5T/nkgbYlwAg=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UBOW5LqrXnA=" name="none" visibility="public" source="AAAAAAF5T/0JAbadWm8=" target="AAAAAAF5T/2J3baoOcE=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UBRgvLq/9ig=" name="no%20time%20left" visibility="public" source="AAAAAAF5UAT3mLh8yj4=" target="AAAAAAF5T/tZmbZlCP4=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UBXJyLrXZFQ=" name="time%20left" visibility="public" source="AAAAAAF5T/2J3baoOcE=" target="AAAAAAF5T/VFGbWe7Rc=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UBbjoLrvQBw=" name="no%20time%20left" visibility="public" source="AAAAAAF5T/2J3baoOcE=" target="AAAAAAF5UAT3mLh8yj4=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UBc8K7sC06M=" visibility="public" source="AAAAAAF5UAT3mLh8yj4=" target="AAAAAAF5UAVkBriWx38=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAF5UBePxbsTbyE=" visibility="public" source="AAAAAAF5T/L+/bVGAI0=" target="AAAAAAF5T/PplrVmeUg=" xmi:type="uml:ControlFlow"/>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>
